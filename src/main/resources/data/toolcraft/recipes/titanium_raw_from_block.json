@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "toolcraft:block_of_raw_titanium"
+    }
+  ],
+  "result": {
+    "item": "toolcraft:raw_titanium",
+    "count": 9
+  }
+}
