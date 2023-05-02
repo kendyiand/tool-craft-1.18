@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "toolcraft:titanium_ingot"
+    }
+  },
+  "result": {
+    "item": "toolcraft:titanium_helmet"
+  }
+}

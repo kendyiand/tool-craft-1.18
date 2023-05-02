@@ -7,5 +7,16 @@
   "block.toolcraft.titanium_ore": "Titanium Ore",
   "block.toolcraft.deepslate_titanium_ore": "Deepslate Titanium Ore",
 
-  "itemGroup.toolcrafttab": "Tool Craft"
+  "itemGroup.toolcrafttab": "Tool Craft",
+
+  "item.toolcraft.titanium_sword": "Titanium Sword",
+  "item.toolcraft.titanium_pickaxe": "Titanium Pickaxe",
+  "item.toolcraft.titanium_shovel": "Titanium Shovel",
+  "item.toolcraft.titanium_axe": "Titanium Axe",
+  "item.toolcraft.titanium_hoe": "Titanium Hoe",
+
+  "item.toolcraft.titanium_helmet": "Titanium Helmet",
+  "item.toolcraft.titanium_chestplate": "Titanium Chestplate",
+  "item.toolcraft.titanium_leggins": "Titanium Leggins",
+  "item.toolcraft.titanium_boots": "Titanium Boots"
 }

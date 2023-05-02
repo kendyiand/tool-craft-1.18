@@ -21,25 +21,25 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> BLOCK_OF_TITANIUM = registerBlock("block_of_titanium",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(0.15f)
+                    .strength(9f)
                     .requiresCorrectToolForDrops()
                     .explosionResistance(5)), ModCreativeModeTab.TOOLCRAFT_TAB);
 
     public static final RegistryObject<Block> BLOCK_OF_RAW_TITANIUM = registerBlock("block_of_raw_titanium",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(0.2f)
+                    .strength(7f)
                     .requiresCorrectToolForDrops()
                     .explosionResistance(8)), ModCreativeModeTab.TOOLCRAFT_TAB);
 
     public static final RegistryObject<Block> TITANIUM_ORE = registerBlock("titanium_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(0.15f)
+                    .strength(5f)
                     .requiresCorrectToolForDrops()
                     .explosionResistance(3)), ModCreativeModeTab.TOOLCRAFT_TAB);
 
     public static final RegistryObject<Block> DEEPSLATE_TITANIUM_ORE = registerBlock("deepslate_titanium_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(0.15f)
+                    .strength(5f)
                     .requiresCorrectToolForDrops()
                     .explosionResistance(3)), ModCreativeModeTab.TOOLCRAFT_TAB);
 
