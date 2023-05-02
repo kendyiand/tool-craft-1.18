@@ -23,25 +23,25 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(9f)
                     .requiresCorrectToolForDrops()
-                    .explosionResistance(5)), ModCreativeModeTab.TOOLCRAFT_TAB);
+                    .explosionResistance(5)), ModCreativeModeTab.TOOLCRAFT_MATERIAL_TAB);
 
     public static final RegistryObject<Block> BLOCK_OF_RAW_TITANIUM = registerBlock("block_of_raw_titanium",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(7f)
                     .requiresCorrectToolForDrops()
-                    .explosionResistance(8)), ModCreativeModeTab.TOOLCRAFT_TAB);
+                    .explosionResistance(8)), ModCreativeModeTab.TOOLCRAFT_MATERIAL_TAB);
 
     public static final RegistryObject<Block> TITANIUM_ORE = registerBlock("titanium_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(5f)
                     .requiresCorrectToolForDrops()
-                    .explosionResistance(3)), ModCreativeModeTab.TOOLCRAFT_TAB);
+                    .explosionResistance(3)), ModCreativeModeTab.TOOLCRAFT_MATERIAL_TAB);
 
     public static final RegistryObject<Block> DEEPSLATE_TITANIUM_ORE = registerBlock("deepslate_titanium_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(5f)
                     .requiresCorrectToolForDrops()
-                    .explosionResistance(3)), ModCreativeModeTab.TOOLCRAFT_TAB);
+                    .explosionResistance(3)), ModCreativeModeTab.TOOLCRAFT_MATERIAL_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
