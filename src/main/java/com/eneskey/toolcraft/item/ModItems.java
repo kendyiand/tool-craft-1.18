@@ -1,6 +1,7 @@
 package com.eneskey.toolcraft.item;
 
 import com.eneskey.toolcraft.ToolCraft;
+import com.eneskey.toolcraft.item.custom.CustomSwordItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -18,7 +19,7 @@ public class ModItems {
             () -> new Item (new Item.Properties().tab(ModCreativeModeTab.TOOLCRAFT_MATERIAL_TAB)));
 
     public static final RegistryObject<Item> TITANIUM_SWORD = ITEMS.register("titanium_sword",
-            () -> new SwordItem(ModTiers.TITANIUM_INGOT, 2, 3f,
+            () -> new CustomSwordItem(ModTiers.TITANIUM_INGOT, 6, 0f,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLCRAFT_COMBAT_TAB)));
     public static final RegistryObject<Item> TITANIUM_SHOVEL = ITEMS.register("titanium_shovel",
             () -> new ShovelItem(ModTiers.TITANIUM_INGOT, 0, 1f,
@@ -46,9 +47,9 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.TITANIUM_INGOT, EquipmentSlot.FEET,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLCRAFT_COMBAT_TAB)));
 
-    public static final RegistryObject<Item> TITANIUM_ELYTRA = ITEMS.register("titanium_boots",
-            () -> new ElytraItem(EquipmentSlot.CHEST,
-                    new Item.Properties().tab(ModCreativeModeTab.TOOLCRAFT_COMBAT_TAB)));
+    public static final RegistryObject<Item> TITANIUM_ELYTRA = ITEMS.register("titanium_elytra",
+            () -> new ElytraItem(new Item.Properties().tab(ModCreativeModeTab.TOOLCRAFT_COMBAT_TAB).durability(432).rarity(Rarity.EPIC)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
