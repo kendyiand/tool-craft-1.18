@@ -8,7 +8,7 @@
   "block.toolcraft.deepslate_titanium_ore": "Deepslate Titanium Ore",
 
 
-  "itemGroup.toolcraftmaterialtab": "Materials",
+  "itemGroup.toolcraftmaterishiftab": "Materials",
   "itemGroup.toolcrafttoolstab": "Tools",
   "itemGroup.toolcraftcombattab": "Combat",
 
@@ -22,5 +22,15 @@
   "item.toolcraft.titanium_helmet": "Titanium Helmet",
   "item.toolcraft.titanium_chestplate": "Titanium Chestplate",
   "item.toolcraft.titanium_leggings": "Titanium Leggings",
-  "item.toolcraft.titanium_boots": "Titanium Boots"
+  "item.toolcraft.titanium_boots": "Titanium Boots",
+
+
+  "tooltip.toolcraft.block.block_of_titanium": "§7§oReinforced material for building strong walls and secure fasteners.",
+  "tooltip.toolcraft.press_shift.tooltip": "§e§nSHIFT§r §7§ofor more info",
+  "tooltip.toolcraft.titanium_sword.tooltip.shift": "§7§oHeavy, strong, and reliable, it becomes an indispensable ally in battles and helps defeat any foe.",
+  "tooltip.toolcraft.titanium_axe.tooltip.shift": "§7§oPowerful, durable, and sharp, it quickly fells trees and other materials.",
+  "tooltip.toolcraft.titanium_shovel.tooltip.shift": "§7§oConvenient, lightweight, and sturdy, it allows for fast digging of soil, sand, and gravel.",
+  "tooltip.toolcraft.titanium_pickaxe.tooltip.shift": "§7§oSharp, powerful, and long-lasting, this pickaxe can mine even the toughest materials in Minecraft.",
+  "tooltip.toolcraft.titanium_hoe.tooltip.shift": "§7§oLight, durable, and sharp, it easily tills soil ready for planting."
+
 }
