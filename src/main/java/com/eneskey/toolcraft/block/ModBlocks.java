@@ -46,6 +46,12 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .explosionResistance(3)), ModCreativeModeTab.TOOLCRAFT_MATERIAL_TAB);
 
+    public static final RegistryObject<Block> SAKURA_LOG = registerBlock("sakura_log",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(2f)
+                    .requiresCorrectToolForDrops()
+                    .explosionResistance(1)), ModCreativeModeTab.TOOLCRAFT_MATERIAL_TAB);
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,
                                                                      CreativeModeTab tab, String tooltipKey) {

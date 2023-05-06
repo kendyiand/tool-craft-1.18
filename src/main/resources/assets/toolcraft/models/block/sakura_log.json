@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "toolcraft:block/sakura_log_top",
+    "side": "toolcraft:block/sakura_log"
+  }
+}

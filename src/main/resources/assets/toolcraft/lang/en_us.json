@@ -6,9 +6,11 @@
   "block.toolcraft.block_of_raw_titanium": "Block of Raw Titanium",
   "block.toolcraft.titanium_ore": "Titanium Ore",
   "block.toolcraft.deepslate_titanium_ore": "Deepslate Titanium Ore",
+  "block.toolcraft.sakura_log": "Sakura Log",
 
 
-  "itemGroup.toolcraftmaterishiftab": "Materials",
+
+  "itemGroup.toolcraftmaterialtab": "Materials",
   "itemGroup.toolcrafttoolstab": "Tools",
   "itemGroup.toolcraftcombattab": "Combat",
 
