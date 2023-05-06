@@ -47,6 +47,9 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.TITANIUM_INGOT, EquipmentSlot.FEET,
                     new Item.Properties().tab(ModCreativeModeTab.TOOLCRAFT_COMBAT_TAB)));
 
+    public static final RegistryObject<Item> TITANIUM_BOW = ITEMS.register("titanium_bow",
+            () -> new BowItem(new Item.Properties().tab(ModCreativeModeTab.TOOLCRAFT_COMBAT_TAB).durability(500)));
+
 //    public static final RegistryObject<Item> TITANIUM_ELYTRA = ITEMS.register("titanium_elytra",
 //            () -> new ElytraItem(ModArmorMaterials.TITANIUM_INGOT, EquipmentSlot.CHEST,
 //                    new Item.Properties().tab(ModCreativeModeTab.TOOLCRAFT_COMBAT_TAB).durability(432).rarity(Rarity.EPIC)));

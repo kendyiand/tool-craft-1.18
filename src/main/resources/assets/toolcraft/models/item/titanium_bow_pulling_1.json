@@ -1,0 +1,6 @@
+{
+    "parent": "toolcraft:item/titanium_bow",
+    "textures": {
+        "layer0": "toolcraft:item/titanium_bow_pulling_1"
+    }
+}
