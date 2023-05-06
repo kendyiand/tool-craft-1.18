@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " IX",
+    "# X",
+    " IX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:string"
+    },
+    "I": {
+      "item": "toolcraft:titanium_ingot"
+    }
+  },
+  "result": {
+    "item": "toolcraft:titanium_bow"
+  }
+}
