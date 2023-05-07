@@ -3,6 +3,8 @@ package com.eneskey.toolcraft;
 import com.eneskey.toolcraft.block.ModBlocks;
 import com.eneskey.toolcraft.item.ModItems;
 import com.eneskey.toolcraft.util.ModItemProperties;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -34,6 +36,10 @@ public class ToolCraft
     }
 
     private void clientSetup(final FMLClientSetupEvent event) {
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.SAKURA_LEAVES.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.SAKURA_SAPLING.get(), RenderType.cutout());
+
 
         ModItemProperties.addCustomItemProperties();
     }

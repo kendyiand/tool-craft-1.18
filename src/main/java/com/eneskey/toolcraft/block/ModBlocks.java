@@ -13,6 +13,8 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.LeavesBlock;
+import net.minecraft.world.level.block.SaplingBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
@@ -81,6 +83,28 @@ public class ModBlocks {
                     return 5;
                 }
             }, ModCreativeModeTab.TOOLCRAFT_MATERIAL_TAB);
+
+    public static final RegistryObject<Block> SAKURA_LEAVES = registerBlock("sakura_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 60;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 30;
+                }
+            }, ModCreativeModeTab.TOOLCRAFT_MATERIAL_TAB);
+
+    public static final RegistryObject<Block> SAKURA_SAPLING = registerBlock("sakura_sapling",
+            () -> new SaplingBlock(, BlockBehaviour.Properties.copy(Blocks.BIRCH_SAPLING)),
+            ModCreativeModeTab.TOOLCRAFT_MATERIAL_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,

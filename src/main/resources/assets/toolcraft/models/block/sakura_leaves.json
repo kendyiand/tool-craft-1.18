@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "toolcraft:block/sakura_leaves"
+  }
+}

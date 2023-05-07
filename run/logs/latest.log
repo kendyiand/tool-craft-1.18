@@ -115,3 +115,89 @@
 [22:38:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
 [22:38:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
 [22:38:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[23:05:46] [Server thread/INFO]: Saving and pausing game...
+[23:05:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[23:05:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[23:05:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[23:06:35] [Server thread/INFO]: Saving and pausing game...
+[23:06:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[23:06:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[23:06:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[23:07:06] [Server thread/INFO]: Saving and pausing game...
+[23:07:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[23:07:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[23:07:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[23:08:48] [Render thread/INFO]: [CHAT] [Debug]: Hitboxes: shown
+[23:11:34] [Server thread/INFO]: Saving and pausing game...
+[23:11:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[23:11:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[23:11:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[23:21:51] [Server thread/INFO]: [Dev: Set the weather to clear]
+[23:21:51] [Render thread/INFO]: [CHAT] Set the weather to clear
+[23:21:56] [Server thread/INFO]: [Dev: Set the time to 1000]
+[23:21:56] [Render thread/INFO]: [CHAT] Set the time to 1000
+[23:21:57] [Server thread/INFO]: Saving and pausing game...
+[23:21:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[23:21:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[23:21:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[23:22:25] [Server thread/INFO]: <Dev> Bukkit. getWorlds()
+[23:22:25] [Render thread/INFO]: [CHAT] <Dev> Bukkit. getWorlds()
+[23:22:28] [Render thread/INFO]: [CHAT] Unknown or incomplete command, see below for error
+[23:22:28] [Render thread/INFO]: [CHAT] /Bukkit. getWorlds()<--[HERE]
+[23:22:33] [Server thread/INFO]: Saving and pausing game...
+[23:22:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[23:22:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[23:22:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[23:25:50] [Server thread/INFO]: Saving and pausing game...
+[23:25:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[23:25:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[23:25:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[23:26:59] [Server thread/INFO]: Saving and pausing game...
+[23:26:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[23:26:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[23:26:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[23:27:44] [Server thread/INFO]: Saving and pausing game...
+[23:27:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[23:27:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[23:27:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[23:28:06] [Server thread/INFO]: Saving and pausing game...
+[23:28:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[23:28:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[23:28:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[23:28:42] [Server thread/INFO]: Saving and pausing game...
+[23:28:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[23:28:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[23:28:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[23:29:05] [Server thread/INFO]: Saving and pausing game...
+[23:29:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[23:29:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[23:29:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[23:29:38] [Server thread/INFO]: Saving and pausing game...
+[23:29:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[23:29:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[23:29:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[23:30:24] [Server thread/INFO]: Saving and pausing game...
+[23:30:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[23:30:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[23:30:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[23:32:46] [Server thread/INFO]: Saving and pausing game...
+[23:32:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[23:32:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[23:32:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[23:32:54] [Server thread/INFO]: [Dev: Set the weather to clear]
+[23:32:54] [Render thread/INFO]: [CHAT] Set the weather to clear
+[23:35:56] [Render thread/INFO]: [CHAT] [Debug]: Hitboxes: hidden
+[23:36:19] [Render thread/INFO]: Stopping!
+[23:36:19] [Server thread/INFO]: Dev lost connection: Disconnected
+[23:36:19] [Server thread/INFO]: Dev left the game
+[23:36:19] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[23:36:19] [Server thread/INFO]: Stopping server
+[23:36:19] [Server thread/INFO]: Saving players
+[23:36:19] [Server thread/INFO]: Saving worlds
+[23:36:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[23:36:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[23:36:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[23:36:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[23:36:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:36:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:36:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
