@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "toolcraft:block/stripped_sakura_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "toolcraft:block/stripped_sakura_wood"
+    },
+    "axis=z": {
+      "model": "toolcraft:block/stripped_sakura_wood",
+      "x": 90
+    }
+  }
+}

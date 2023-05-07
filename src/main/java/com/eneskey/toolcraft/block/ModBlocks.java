@@ -1,14 +1,20 @@
 package com.eneskey.toolcraft.block;
 
 import com.eneskey.toolcraft.ToolCraft;
+import com.eneskey.toolcraft.block.custom.ModFlammableRotatedPillarBlock;
 import com.eneskey.toolcraft.item.ModCreativeModeTab;
 import com.eneskey.toolcraft.item.ModItems;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -47,10 +53,34 @@ public class ModBlocks {
                     .explosionResistance(3)), ModCreativeModeTab.TOOLCRAFT_MATERIAL_TAB);
 
     public static final RegistryObject<Block> SAKURA_LOG = registerBlock("sakura_log",
-            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
-                    .strength(2f)
-                    .requiresCorrectToolForDrops()
-                    .explosionResistance(1)), ModCreativeModeTab.TOOLCRAFT_MATERIAL_TAB);
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_LOG)),
+            ModCreativeModeTab.TOOLCRAFT_MATERIAL_TAB);
+    public static final RegistryObject<Block> SAKURA_WOOD = registerBlock("sakura_wood",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_WOOD)),
+            ModCreativeModeTab.TOOLCRAFT_MATERIAL_TAB);
+    public static final RegistryObject<Block> STRIPPED_SAKURA_LOG = registerBlock("stripped_sakura_log",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_BIRCH_LOG)),
+            ModCreativeModeTab.TOOLCRAFT_MATERIAL_TAB);
+    public static final RegistryObject<Block> STRIPPED_SAKURA_WOOD = registerBlock("stripped_sakura_wood",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_BIRCH_WOOD)),
+            ModCreativeModeTab.TOOLCRAFT_MATERIAL_TAB);
+    public static final RegistryObject<Block> SAKURA_PLANKS = registerBlock("sakura_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 20;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 5;
+                }
+            }, ModCreativeModeTab.TOOLCRAFT_MATERIAL_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,

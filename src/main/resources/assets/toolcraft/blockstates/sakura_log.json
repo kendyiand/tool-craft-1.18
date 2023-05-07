@@ -1,5 +1,16 @@
 {
   "variants": {
-    "": {"model": "toolcraft:block/sakura_log"}
+    "axis=x": {
+      "model": "toolcraft:block/sakura_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "toolcraft:block/sakura_log"
+    },
+    "axis=z": {
+      "model": "toolcraft:block/sakura_log_horizontal",
+      "x": 90
+    }
   }
 }

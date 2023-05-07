@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sakura_log"
+    }
+  },
+  "result": {
+    "item": "minecraft:sakura_wood",
+    "count": 3
+  }
+}

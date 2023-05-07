@@ -6,8 +6,12 @@
   "block.toolcraft.block_of_raw_titanium": "Block of Raw Titanium",
   "block.toolcraft.titanium_ore": "Titanium Ore",
   "block.toolcraft.deepslate_titanium_ore": "Deepslate Titanium Ore",
-  "block.toolcraft.sakura_log": "Sakura Log",
 
+  "block.toolcraft.sakura_log": "Sakura Log",
+  "block.toolcraft.sakura_planks": "Sakura Planks",
+  "block.toolcraft.sakura_wood": "Sakura Wood",
+  "block.toolcraft.stripped_sakura_log": "Stripped Sakura Log",
+  "block.toolcraft.stripped_sakura_wood": "Stripped Sakura Wood",
 
 
   "itemGroup.toolcraftmaterialtab": "Materials",
