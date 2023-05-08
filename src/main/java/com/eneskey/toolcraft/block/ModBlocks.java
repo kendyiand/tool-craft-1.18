@@ -4,6 +4,7 @@ import com.eneskey.toolcraft.ToolCraft;
 import com.eneskey.toolcraft.block.custom.ModFlammableRotatedPillarBlock;
 import com.eneskey.toolcraft.item.ModCreativeModeTab;
 import com.eneskey.toolcraft.item.ModItems;
+import com.eneskey.toolcraft.world.feature.tree.SakuraTreeGrower;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.network.chat.Component;
@@ -103,7 +104,7 @@ public class ModBlocks {
             }, ModCreativeModeTab.TOOLCRAFT_MATERIAL_TAB);
 
     public static final RegistryObject<Block> SAKURA_SAPLING = registerBlock("sakura_sapling",
-            () -> new SaplingBlock(, BlockBehaviour.Properties.copy(Blocks.BIRCH_SAPLING)),
+            () -> new SaplingBlock(new SakuraTreeGrower(), BlockBehaviour.Properties.copy(Blocks.BIRCH_SAPLING)),
             ModCreativeModeTab.TOOLCRAFT_MATERIAL_TAB);
 
 
