@@ -12,10 +12,7 @@ import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.LeavesBlock;
-import net.minecraft.world.level.block.SaplingBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
@@ -86,7 +83,7 @@ public class ModBlocks {
             }, ModCreativeModeTab.TOOLCRAFT_MATERIAL_TAB);
 
     public static final RegistryObject<Block> SAKURA_SLAB = registerBlock("sakura_slab",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BIRCH_SLAB)) {
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_SLAB)) {
                 @Override
                 public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
                     return true;
