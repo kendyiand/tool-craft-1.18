@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:sakura_wood"
+          "name": "toolcraft:sakura_wood"
         }
       ],
       "conditions": [

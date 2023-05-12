@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "toolcraft:block/sakura_slab"
+    },
+    "type=double": {
+      "model": "toolcraft:block/sakura_planks"
+    },
+    "type=top": {
+      "model": "toolcraft:block/sakura_slab_top"
+    }
+  }
+}

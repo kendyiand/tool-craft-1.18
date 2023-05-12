@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:sakura_planks"
+          "name": "toolcraft:sakura_planks"
         }
       ],
       "conditions": [

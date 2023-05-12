@@ -85,6 +85,24 @@ public class ModBlocks {
                 }
             }, ModCreativeModeTab.TOOLCRAFT_MATERIAL_TAB);
 
+    public static final RegistryObject<Block> SAKURA_SLAB = registerBlock("sakura_slab",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BIRCH_SLAB)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 20;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 5;
+                }
+            }, ModCreativeModeTab.TOOLCRAFT_MATERIAL_TAB);
+
     public static final RegistryObject<Block> SAKURA_LEAVES = registerBlock("sakura_leaves",
             () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_LEAVES)) {
                 @Override
