@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "toolcraft:sakura_log",
+    "toolcraft:sakura_wood",
+    "toolcraft:stripped_sakura_log",
+    "toolcraft:stripped_sakura_wood"
+  ]
+}
