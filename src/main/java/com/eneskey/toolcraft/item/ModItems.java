@@ -50,6 +50,9 @@ public class ModItems {
     public static final RegistryObject<Item> TITANIUM_BOW = ITEMS.register("titanium_bow",
             () -> new BowItem(new Item.Properties().tab(ModCreativeModeTab.TOOLCRAFT_COMBAT_TAB).durability(500)));
 
+    public static final RegistryObject<Item> TITANIUM_ARROW = ITEMS.register("titanium_arrow",
+            () -> new ArrowItem(new Item.Properties().tab(ModCreativeModeTab.TOOLCRAFT_COMBAT_TAB)));
+
 
 
     public static void register(IEventBus eventBus) {

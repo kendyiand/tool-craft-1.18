@@ -128,12 +128,12 @@ public class ModBlocks {
 
                 @Override
                 public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
-                    return 60;
+                    return 100;
                 }
 
                 @Override
                 public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
-                    return 30;
+                    return 80;
                 }
             }, ModCreativeModeTab.TOOLCRAFT_MATERIAL_TAB);
 
