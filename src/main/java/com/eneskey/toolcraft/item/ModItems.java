@@ -51,7 +51,7 @@ public class ModItems {
             () -> new BowItem(new Item.Properties().tab(ModCreativeModeTab.TOOLCRAFT_COMBAT_TAB).durability(500)));
 
     public static final RegistryObject<Item> TITANIUM_ARROW = ITEMS.register("titanium_arrow",
-            () -> new ArrowItem(new Item.Properties().tab(ModCreativeModeTab.TOOLCRAFT_COMBAT_TAB)));
+            () -> new TitaniumArrowItem(new Item.Properties().tab(ModCreativeModeTab.TOOLCRAFT_COMBAT_TAB), 1.5F));
 
 
 
