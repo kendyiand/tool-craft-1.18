@@ -1,0 +1,133 @@
+---- Minecraft Crash Report ----
+// Don't do that.
+
+Time: 5/14/23, 11:52 PM
+Description: Initializing game
+
+net.minecraftforge.fml.ModLoadingException: Tool Craft (toolcraft) encountered an error during the common_setup event phase
+§7java.lang.NullPointerException: Registry Object not present: toolcraft:titanium_arrow
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:124) ~[javafmllanguage-1.18.2-40.0.5.jar%2377!/:?] {}
+	at net.minecraftforge.fml.ModLoader.lambda$postEvent$31(ModLoader.java:298) ~[fmlcore-1.18.2-40.0.5.jar%2379!/:?] {}
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?] {}
+	at net.minecraftforge.fml.ModList.forEachModContainer(ModList.java:233) ~[fmlcore-1.18.2-40.0.5.jar%2379!/:?] {}
+	at net.minecraftforge.fml.ModLoader.postEvent(ModLoader.java:298) ~[fmlcore-1.18.2-40.0.5.jar%2379!/:?] {}
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:543) ~[forge-1.18.2-40.0.5_mapped_parchment_1.18.1-2022.02.13-1.18.2-recomp.jar%2376!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:169) ~[forge-1.18.2-40.0.5_mapped_parchment_1.18.1-2022.02.13-1.18.2-recomp.jar%2376!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:38) ~[fmlloader-1.18.2-40.0.5.jar%230!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.3.jar%2310!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.3.jar%2310!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.3.jar%2310!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.3.jar%2310!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.3.jar%2310!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.3.jar%2310!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%2310!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?] {}
+Caused by: java.lang.NullPointerException: Registry Object not present: toolcraft:titanium_arrow
+	at java.util.Objects.requireNonNull(Objects.java:336) ~[?:?] {}
+	at net.minecraftforge.registries.RegistryObject.get(RegistryObject.java:109) ~[forge-1.18.2-40.0.5_mapped_parchment_1.18.1-2022.02.13-1.18.2-recomp.jar%2375%2381!/:?] {re:classloading}
+	at com.eneskey.toolcraft.client.ClientModEventSubscriber.onClientSetup(ClientModEventSubscriber.java:17) ~[%2380!/:?] {re:classloading}
+	at net.minecraftforge.eventbus.ASMEventHandler_2_ClientModEventSubscriber_onClientSetup_RegisterRenderers.invoke(.dynamic) ~[?:?] {}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-5.0.7.jar%239!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-5.0.7.jar%239!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-5.0.7.jar%239!/:?] {}
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:120) ~[javafmllanguage-1.18.2-40.0.5.jar%2377!/:?] {}
+	... 19 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:124) ~[javafmllanguage-1.18.2-40.0.5.jar%2377!/:?] {}
+	at net.minecraftforge.fml.ModLoader.lambda$postEvent$31(ModLoader.java:298) ~[fmlcore-1.18.2-40.0.5.jar%2379!/:?] {}
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?] {}
+	at net.minecraftforge.fml.ModList.forEachModContainer(ModList.java:233) ~[fmlcore-1.18.2-40.0.5.jar%2379!/:?] {}
+	at net.minecraftforge.fml.ModLoader.postEvent(ModLoader.java:298) ~[fmlcore-1.18.2-40.0.5.jar%2379!/:?] {}
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:543) ~[forge-1.18.2-40.0.5_mapped_parchment_1.18.1-2022.02.13-1.18.2-recomp.jar%2376!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+-- Initialization --
+Details:
+	Modules: 
+Stacktrace:
+	at net.minecraft.client.main.Main.main(Main.java:169) ~[forge-1.18.2-40.0.5_mapped_parchment_1.18.1-2022.02.13-1.18.2-recomp.jar%2376!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:38) ~[fmlloader-1.18.2-40.0.5.jar%230!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.3.jar%2310!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.3.jar%2310!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.3.jar%2310!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.3.jar%2310!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.3.jar%2310!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.3.jar%2310!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%2310!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.18.2
+	Minecraft Version ID: 1.18.2
+	Operating System: Linux (amd64) version 5.19.0-41-generic
+	Java Version: 17.0.7, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 1859787432 bytes (1773 MiB) / 2449473536 bytes (2336 MiB) up to 8338276352 bytes (7952 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+	Identifier: Intel64 Family 6 Model 140 Stepping 1
+	Microarchitecture: Tiger Lake
+	Frequency (GHz): 2.40
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: TigerLake-LP GT2 [Iris Xe Graphics]
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 256.00
+	Graphics card #0 deviceId: 0x9a49
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 23530.99
+	Virtual memory used (MB): 12812.75
+	Swap memory total (MB): 7629.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 0 total; 
+	Launched Version: MOD_DEV
+	Backend library: LWJGL version 3.2.2 SNAPSHOT
+	Backend API: Mesa Intel(R) Xe Graphics (TGL GT2) GL version 4.6 (Core Profile) Mesa 22.2.5, Intel
+	Window size: <not initialized>
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	CPU: 8x 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+	ModLauncher: 9.1.3+9.1.3+main.9b69c82a
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		 mixin PLUGINSERVICE 
+		 eventbus PLUGINSERVICE 
+		 slf4jfixer PLUGINSERVICE 
+		 object_holder_definalize PLUGINSERVICE 
+		 runtime_enum_extender PLUGINSERVICE 
+		 capability_token_subclass PLUGINSERVICE 
+		 accesstransformer PLUGINSERVICE 
+		 runtimedistcleaner PLUGINSERVICE 
+		 mixin TRANSFORMATIONSERVICE 
+		 fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		javafml@null
+	Mod List: 
+		forge-1.18.2-40.0.5_mapped_parchment_1.18.1-2022.0|Minecraft                     |minecraft                     |1.18.2              |COMMON_SET|Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		main                                              |Tool Craft                    |toolcraft                     |0.0.9               |COMMON_SET|Manifest: NOSIGNATURE
+		                                                  |Forge                         |forge                         |40.0.5              |COMMON_SET|Manifest: NOSIGNATURE
+	Crash Report UUID: 937db71e-b4a0-47fb-8d1d-ddac2974cb59
+	FML: 40.0
+	Forge: net.minecraftforge:40.0.5
